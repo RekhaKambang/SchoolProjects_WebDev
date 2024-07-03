@@ -2,31 +2,34 @@
 <html>
 	<head>
 		<title>
-		Site report
+		Site Report
 		</title>
 		<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="tca1.css">
+	</head>
+	
+	<header>
 		<nav>
-			<li> <a href="index.html"> Home </a></li>
-			<li> <a href="project.html"> Portfolio </a> </li>
-			<li> <a href="videoDemo.html"> Video Demo </a> </li>
-			<li> <a href="contact.html"> Contact Me </a> </li>
-			<li> <a href="siteReport.html"> Site Report </a> </li>
+			<a href="index.html"> Home </a>
+			<a href="project.html"> Portfolio </a>
+			<a href="videoDemo.html"> Video Demo </a>
+			<a href="contact.html"> Contact Me </a>
+			<a href="siteReport.html"> Site Report </a>
 		
 		</nav>
-	</head>
+	</header>
 	
 	<body>
 		<h2> Introduction </h2>
-		<div id="start_of_report"> 
-			This is a written report for the module, web development CSY1063 assignment 1. 
+		<div class="starting_point"> 
+			This is a written report/log hybrid for the module, web development CSY1063 assignment 1. 
 			In this report, I will go through the design and thought process of making this 
 			website come to life. While in development, I will include logs and include 
 			milestones that I have set for myself during the planning phase.
 		</div>
 		
 		<h3> 20 June 2024 </h3>
-		<div id="text_dump"> 
+		<div class="document_text"> 
 			<h4> Brainstorming phase </h4>
 			<p> 
 			Initially, I had plans to first think of the theme and then try to build 
@@ -63,10 +66,10 @@
 			</p>
 			
 			<img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihboKOw2zQqrw11LuGoaBHLFjcimtSZBDDANU1lTxJmi-utLYXfJuNIGnLq5DxU4aktyuf5_ngsM1CzUxbSmNLtlkARz1wUHfA=w1842-h947-rw-v1"
-			alt="brainstorming on paper, page 1" width="400">
+			alt="brainstorming on paper, page 1" width="400" class="polaroid">
 			
 			<img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihYvV4kb5SFBKkXtaxHF-XSQgAQqNRU4sLPJjJ2FA3S2SD2CXLRhnSmU-15E8JCCqvILedOYAB_9MomtJ79fqjq0ccxFh8MxzwE=w1842-h947-rw-v1" 
-			alt="brainstorming on paper, page 2" width="400">
+			alt="brainstorming on paper, page 2" width="400" class="polaroid">
 			
 			<h3>Planning phase</h3>
 			<p>
@@ -85,12 +88,11 @@
 			</p>
 			
 			<img src="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihYmTrk6pcK8Nfx9FCwkDQ2gs0tWEOkurlENpfYpOYRMwwexqHX85-sUhRFZo8wHYIK1jkkMPkNGvazKlzdlfz2sxTT7O4hed5k=w1842-h947-rw-v1" 
-			alt="idea for poloriod border" width="400">
+			alt="idea for poloriod border" width="400" class="polaroid">
 			
 		</div>
 	
-	
-		<div id="text_dump">
+		<div class="document_text">
 			<h3> 1 July 2024 </h3>
 			<p> 
 				Trying to write for this site has been an interesting and fulfiling expereince. 
@@ -118,7 +120,7 @@
 			</p>
 			
 			<img src="https://lh3.googleusercontent.com/u/3/drive-viewer/AKGpihYXE1SlVChhpoIoAzULf9IaGNdNtYh7cGtowCkHurxKVUiVZZwYMv7Wp6uvNKNoizxY3alN2gD_NJV9_XaEPkMHojXvqEV22Q=w1842-h947-rw-v1" 
-			alt="Desktop screenshot of logo maker" width= "900">
+			alt="Desktop screenshot of logo maker" width= "900" class="polaroid">
 			
 			<p>
 			Here's my silly icon I grabbed from an logo maker site.
@@ -142,7 +144,75 @@
 			</p>
 		</div>
 	
+		<div class="document_text">
+			<h3> 4 July 2024</h3>
+			<p>
+			Currently I am trying to write up the basic building block for a caurosel 
+			like gallery for my project html. I want it to be easily viewed in one 
+			glance rather than it being all scrolled down into oblivion.
+			<br>
+			<br>
+			 One method I found had something to do with layering a 'wrapper' around
+			 multiple images. Turns out one usually used Javascript for it and I am a little
+			 worried that it would be too much to do. I will attempt to do a Javascript-free
+			 version and test it next to one made and powered with JavaScript.
+			 <br>
+			 <br>
+			 I refered to these websites for guidance: 
+			 https://css-tricks.com/how-to-make-a-css-only-carousel/ 
+			 https://codepen.io/trungvose/pen/EydyoL
+			 https://wpdean.com/css-carousels/  so many cool ideas!!
+			<br> 
+			<br> 
+			 I figure the images might slow the website's loading
+			 speed so I am wondering if there is a way to compress images into preview
+			 first. I came across interesting articles for it.
+			 
+			 https://kinsta.com/blog/optimize-images-for-web/#choose-the-right-file-format
+			<br>
+			<br>
+			I managed to make a polaroid border in css but now there's a bit of floating
+			issues that I will have to correct. 
+			
+			https://stackoverflow.com/questions/7731310/text-in-border-css-html
+			Interesting stuff
+			</p>
+			
+			<p>
+			I just found out I was supposed to be using the paragraph tag in this manner
+			</p>
+			
+			<p>
+			I am struggling to wrangle the grid to function as it is breaking
+			everything I am trying to do.
+			
+			I am also learning that having a todo list is probably more ideal because I 
+			am all over the place. It is starting to disorient me.
+			</p>
+			
+			<p>
+			Apparently headers are meant to hold the nav bar, I have corrected it as
+			such.
+			</p>
+			
+			
+		</div>
+		
+	<!-- This will be deleted later
 	
+			Stuff to do/keep track of:
+
+			- Wrangle the grids to work.
+			- Try to fix the border issues with nav
+			- Add more element meat
+			- FInd out how to do emails or making them pop out with text user has inputed
+			- Make a proper todo list to get more organised.
+			- polaroid is kinda done. 
+			- evidence will be used only for site report. Meant to hold the rectangular ratios
+			- Do not forget to run all text through spell checker at the end!!
+
+-->
+		
 	</body>
 	
 </html>
